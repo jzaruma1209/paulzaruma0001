@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Encabezado y navegación -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acerca_de.html">Acerca de</a></li>
+                <li><a href="contactos.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Contenido principal -->
+    <main>
+        <section>
+            <h2>Contacto</h2>
+            <form action="submit_form.php" method="post">
+                <input type="text" name="name" placeholder="Tu Nombre" required>
+                <input type="email" name="email" placeholder="Tu Email" required>
+                <textarea name="message" placeholder="Tu Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2024 Mi Sitio Web</p>
+        <!-- Enlace para volver a la página principal -->
+        <p><a href="index.html">Volver a Inicio</a></p>
+    </footer>
+</body>
+</html>
